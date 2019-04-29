@@ -12,7 +12,7 @@ html_file = []
 
 listen_socket = socket.socket()           #Criando um objeto do tipo socket
 HOST, PORT = socket.getfqdn(), 80         #Definindo o nome do HOST(Nome do computador) e a porta
-listen_socket.bind(("192.168.42.87" , PORT))         #Utilizando a função bind para ligar o HOST e o PORT
+listen_socket.bind((HOST , PORT))         #Utilizando a função bind para ligar o HOST e o PORT
 
 print("\nServidor Iniciado!")
 print("\nAguardando na porta: %s" % PORT)
