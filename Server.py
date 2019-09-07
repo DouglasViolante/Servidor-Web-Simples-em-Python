@@ -2,7 +2,7 @@
 """
 Created on Tue Apr 11 12:35:56 2019
 
-@author(s): Douglas Violante, Daniel Colioni, Rodrigo Carrareto
+@author(s): Douglas Violante
 """
 # Versão Windows Apenas!
 
